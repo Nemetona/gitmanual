@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(115, 121, 121);
+}
+h1 {
+   color: white; 
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xxx-large;
+}
+h3 {
+    color: rgb(32, 30, 30);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 160%;
+}
+p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
