@@ -10,7 +10,7 @@
 <body>
    <header> GitHub </header>
     <h1> Manual</h1>
-    <h3> Här får du en beskrivning av Git och hur man skapar en repository</h3>
+    <h4> Här får du en beskrivning av Git och hur man skapar en repository</h3>
     <p>För att skapa en git.repository behöver du en mapp som ligger på skrivbordet <br>
         Sedan öppnar du en terminal i t.ex. VSC: terminal: New terminal. <br>
         Se till att vara i mappen som skapades när du arbetar i terminalen. <br>
@@ -24,6 +24,23 @@
         <br><li> Skapa ett repository i GitHub genom att klicka på + ikonen vid din profilbild</li><br>
         <br><li> Nu ska du tillbaka till VSC och ta fram terminalen där du skriver in ditt projektnamn t.ex. git remote add origin https://github.com/Nemetona/Technics-for-webdesign.git</li><br>
         <br><li> Gör en git push och du får git push --set-upstream origin maste </li><br>
+    </ol>
+    <h3>Git kommandon</h3>
+    <h4>Uppdatera lokal repository mot GitHub</h4>
+    <ol>
+        <li>git status = kolla om det finns ändringar i lokalt projekt</li>
+        <li>git checkout dittFilnamn.html = tar bort osparade ändringar i lokal fil</li>
+        <li>git fetch --all = hämta senaste versionsinformationen från github</li>
+        <li>git pull = ladda ner senaste ändringarna från github</li><br>
+    </ol>
+
+    <h4>Spara nya ändringar till GitHub</h4>
+    <ol>
+        <li>git status = kolla om det finns ändringar i lokalt projekt</li>
+        <li>git add dittFilnamn.html = lägger till ändringar från fil som ska skickas till GitHub</li>
+        <li>git add . = lägger till alla ändringar från alla filer som ska skickas till GitHub</li>
+        <li>git commit -m "ditt meddelande som beskriver vad du ändrat" = fungerar som en label för ändringen</li>
+        <li>git push = skickar ändringarna till GitHub</li><br>
     </ol>
     <p>Om du vill lära dig mer om GitHub finns en länk här.</p>
     <a href="https://guides.github.com/activities/hello-world/">GitHub guide</a>
